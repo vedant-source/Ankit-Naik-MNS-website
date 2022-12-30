@@ -1395,3 +1395,7 @@ section {
 /* #hovereffect p a:hover {
   color: blue;
 } */
+
+#portfoliobtn:hover {
+  color: #f6f6f6;
+}
