@@ -1,4 +1,4 @@
-var gallery = document.querySelector('#gallery');
+var gallery = document.querySelector('#gallery');//main div 
 var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
 var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
 var resizeAll = function () {
